@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SANTORINIS PIZZA</title>
     <link rel="stylesheet" href="css/offerStyle.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -75,7 +77,7 @@
             </div>
             <div class="cross">
                 <button class="cross">
-                    +
+                    ×
                 </button>
             </div>
         </div>
@@ -89,7 +91,7 @@
             </div>
 
             <div class="pizza_name">
-                <a class="name">Аррива!</a>
+                <a class="name">Диабло</a>
                 <div class="pizza_description">
                     <a> Средняя, 30см. Традиционное тесто</a>
                 </div>
@@ -97,7 +99,7 @@
 
 
             <div class="pizza_price">
-                <a> 649 ₽</a>
+                <a> 749 ₽</a>
             </div>
 
             <div class="pizza_count">
@@ -108,29 +110,88 @@
             </div>
             <div class="cross">
                 <button class="cross">
-                    +
+                    ×
                 </button>
             </div>
         </div>
     </div>
 
+    <div class="form_container">
+        <div class="contact_container">
+            <div class="contact_data">
+                <a>Контактные данные</a>
+            </div>
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Фамиия">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Имя">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Отчество (при наличии)">
+                    </div>
+                </div>
 
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Номер телефона">
+                    </div>
+
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Дата рождения">
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
 
 </div>
 
+<div class="form_container">
+    <div class="contact_container">
+        <div class="contact_data">
+            <a>Адрес доставки</a>
+        </div>
+        <form>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Город">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Улица">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Дом">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Квартира">
+                </div>
+            </div>
 
+            <div class="row">
+                <div class="form-group">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Заметки для курьера"></textarea>
+                </div>
+            </div>
+
+        </form>
+        <button type="submit" class="form_button" value="Отправить заказ">Отправить заказ</button>
+    </div>
+
+</div>
 
 <footer>
-
     <div class="footer_info">
         <div class="Company">
             <a class="Santorinis">SANTORINIS</a>
-
         </div>
+
         <div class="Copiright">
             <a>Copyright © 2000 - 2023</a>
             <div class="contacts">
-
                 <div class="insta">
                     <img src="/img/insta1.png" class="img1">
                 </div>
@@ -142,10 +203,8 @@
                 <div class="twitter">
                     <img src="/img/twitter1.png" class="img3">
                 </div>
-
             </div>
         </div>
-
     </div>
 
 </footer>
